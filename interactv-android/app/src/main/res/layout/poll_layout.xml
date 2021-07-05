@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/color_change"
+    android:layout_margin="10dp"
+    android:id="@+id/inner_pop_layout"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask your lenthy qyestion herec"
+        android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="20dp"
+        android:autoSizeMinTextSize="15dp"
+        />
+
+</LinearLayout>
